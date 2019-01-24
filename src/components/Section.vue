@@ -19,7 +19,7 @@
                     <div>Prioridad:
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-secondary active">
-                                <input type="radio" name="options" id="low" autocomplete="off" checked> Low
+                                <input type="radio" name="options" id="low" autocomplete="off"> Low
                             </label>
                             <label class="btn btn-secondary">
                                 <input type="radio" name="options" id="normal" autocomplete="off"> Normal
