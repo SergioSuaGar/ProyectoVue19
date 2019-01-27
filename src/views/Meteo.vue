@@ -1,7 +1,7 @@
 <template>
-    <div class="about">
+    <div class="meteo">
         <Header></Header>
-        <Section></Section>
+        <Meteo></Meteo>
         <Footer></Footer>
     </div>
 </template>
@@ -9,14 +9,15 @@
 <script>
 
     import Header from "../components/Header";
-    import Section from "../components/Section";
+    import Meteo from "../components/Meteo";
     import Footer from "../components/Footer";
+
 
     export default {
         name: "meteo",
         components: {
             Header,
-            Section,
+            Meteo,
             Footer
         }
     }
